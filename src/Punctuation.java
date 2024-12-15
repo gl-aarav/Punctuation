@@ -84,7 +84,8 @@ public class Punctuation
 		{
 			char c = passageIn.charAt(i);
 
-			if (c == ' ') { // End of a word
+			if (c == ' ') 
+			{ // End of a word
 				if (checkForPunctuation(word)) 
 				{
 					result += word + " ";
